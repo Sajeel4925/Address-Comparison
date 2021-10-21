@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="nightwatch.basic.test"
+    errors="1" failures="0" hostname="" id="" package="nightwatch.basic.test" skipped="0"
+    tests="2" time="38.56" timestamp="">
+  
+    <testcase name="Assertion of Address in website" classname="nightwatch.basic.test" time="34.95" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="demoTestAsync" classname="nightwatch.basic.test" time="3.605" assertions="2">
+
+    
+
+    
+    <error message="Cannot access &#39;nisumGoogleAddress&#39; before initialization" type="error"><![CDATA[
+    ReferenceError: Cannot access &#39;nisumGoogleAddress&#39; before initialization
+    at Object.demoTestAsync (/Users/sarehman/Desktop/nightwatch-tutorial/tests/nightwatch.basic.test.js:23:30)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        ReferenceError: Cannot access &#39;nisumGoogleAddress&#39; before initialization
+       at Object.demoTestAsync (/Users/sarehman/Desktop/nightwatch-tutorial/tests/nightwatch.basic.test.js:23:30)
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
